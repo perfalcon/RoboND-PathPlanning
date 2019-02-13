@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cd /home/workspace/catkin_ws; 
-source /home/workspace/catkin_ws/devel/setup.bash;
+#cd /home/workspace/catkin_ws; 
+#source /home/workspace/catkin_ws/devel/setup.bash;
 
 xterm -e "roslaunch turtlebot_gazebo turtlebot_world.launch" &
 
